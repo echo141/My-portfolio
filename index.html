@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,14 +18,21 @@
     <div class="header-content">
       <h1>Моё Портфолио Разработчика</h1>
       <p>Информация обо мне, моих проектах и увлечениях</p>
+      <button class="scroll-button" onclick="scrollDown()">▼</button>
     </div>
   </header>
 
   <!-- Section 1: Обо мне -->
   <section id="about" class="parallax-section">
-    <div class="content">
-      <h2>Обо мне</h2>
-      <p>Я целеустремлен и занимаюсь разными проектами. Меня интересуют программирование и базы данных.</p>
+    <div class="content about-section">
+      <div class="avatar">
+        <img src="your_avatar.png" alt="Моя Аватарка">
+      </div>
+      <div class="about-text">
+        <h2>Обо мне</h2>
+        <p>Я целеустремленный разработчик, стремящийся к постоянному совершенствованию навыков и знаниям. Мне интересны сложные задачи и нестандартные решения. Моя страсть — это программирование и базы данных. Я использую современные инструменты и технологии для создания инновационных решений.</p>
+        <p>Мой подход заключается в анализе проблемы, разработке планов её решения и их реализации. Я открыт к новым проектам и готов развивать как свои технические, так и управленческие навыки. В моей работе важны структурированность, внимательность к деталям и высокое качество исполнения.</p>
+      </div>
       <div class="icons">
         <div>
           <img src="vscode_icon.png" alt="Vscode">
@@ -47,11 +54,39 @@
     </div>
   </section>
 
-  <!-- Section 2: Проекты -->
+  <!-- Section 2: Проекты и Отзывы -->
   <section id="projects" class="parallax-section">
     <div class="content">
       <h2>Проекты</h2>
-      <p>Здесь будет информация о моих проектах...</p>
+      <div class="project-slider">
+        <div class="project">
+          <h3>Проект 1</h3>
+          <p>Описание первого проекта.</p>
+        </div>
+        <div class="project">
+          <h3>Проект 2</h3>
+          <p>Описание второго проекта.</p>
+        </div>
+        <div class="project">
+          <h3>Проект 3</h3>
+          <p>Описание третьего проекта.</p>
+        </div>
+      </div>
+      <h2>Отзывы</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial">
+          <p>"Отличный разработчик! Всегда внимателен к деталям."</p>
+          <p>- Клиент 1</p>
+        </div>
+        <div class="testimonial">
+          <p>"Сотрудничество было на высшем уровне, проекты были сданы вовремя."</p>
+          <p>- Клиент 2</p>
+        </div>
+        <div class="testimonial">
+          <p>"Работа превзошла все ожидания. Рекомендую!"</p>
+          <p>- Клиент 3</p>
+        </div>
+      </div>
     </div>
   </section>
 
